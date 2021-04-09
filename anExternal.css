@@ -35,8 +35,14 @@ h3 {
   border-width: 15px;
 }
 
-p.dotted {border-style: dotted;}
-p.dashed {border-style: dashed;}
+p.dotted {
+  border-style: dotted;
+  font-size: 24px;
+}
+p.dashed {
+  border-style: dashed;
+  font-size: 24px;
+}
 
 .right {
   float: right;
