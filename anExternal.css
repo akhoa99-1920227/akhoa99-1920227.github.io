@@ -27,9 +27,9 @@ p.ex1 {
 }
 
 h3 {
-  color: #FFBC00;
+  color: #ff0077;
   font-size: 24px;
-  font-family: "Passion One";
+  background: #1e41db;
   margin-bottom: 0px;
   border-style: double;
   border-width: 15px;
