@@ -1,0 +1,52 @@
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.ex1 {
+  margin: 20px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Arial;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h3 {
+  color: #FFBC00;
+  font-size: 24px;
+  font-family: "Passion One";
+  margin-bottom: 0px;
+  border-style: double;
+  border-width: 15px;
+}
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+
+.right {
+  float: right;
+  margin-left: 1em;
+}
+
+.rcorners {
+  border-radius: 25px;
+  background: #2175ad;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
