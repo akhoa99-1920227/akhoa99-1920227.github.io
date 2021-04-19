@@ -1,10 +1,29 @@
 body {
     background-image: url('dark_wood.png');
+    opacity: 0.3;
+    background-repeat: no-repeat;
 }
+
+a {
+    color: green;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+div {
+    background-color: #8E25D5;
+}
+
 
 p {
     color: white;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 h3 {
@@ -16,54 +35,42 @@ h3 {
 
 #Header {
     width: 500px;
+}
+
+#Header h1{
+    font-size: 60px; 
+    font-family: "Passion One"; 
+    color: #FFBC00; 
+    font-weight: bold; 
+}
+
+#Header, #LeftNav, #Content, #Footer{
+    text-align: center;
+    border: solid 10px black;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    border: solid 8px black;
-    text-align: center;
-    background-color: #8E41D5;
-}
-
-#Header h1 {
-    font-size: 60px;
-    font-family: "Passion One";
-    color: #FFBC00;
-    font-weight: bold;
+    border-style: dotted dashed
 }
 
 #LeftNav {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    border: solid 8px black;
-    float: left;
-    text-align: center;
+    width: 400px; 
     padding-bottom: 8px;
-    background-color: #8E41D5;
+    float: right;
 }
-
-ul {
-    list-style-type: none;
-    padding-left: 0px;
-}
-
 #Content {
     width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    border: solid 8px black;
-    text-align: center;
     padding: 15px;
-    background-color: #8E41D5;
 }
 
-#Footer {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    border: solid 8px black;
-    text-align: center;
-    background-color: #8E41D5;
+#Content p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Content img {
+    border-radius: 10%;
+    border-width: 4px;
+    border-color: black;
+    border-style:dashed;
 }
